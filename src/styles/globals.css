@@ -8,6 +8,13 @@
   padding: 20px;
 }
 
+.option-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px 0 20px;
+}
+
 h1 {
   font-size: 3rem;
   text-align: center;
@@ -32,10 +39,8 @@ textarea {
 }
 
 button {
-  margin-top: 10px;
   font-size: 1.5rem;
   background-color: #4b5563;
-  /* color: white; */
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -58,5 +63,6 @@ input[type="number"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 5px;
+  margin-left: 10px;
   text-align: center;
 }
